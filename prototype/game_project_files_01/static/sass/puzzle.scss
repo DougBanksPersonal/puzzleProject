@@ -1,0 +1,73 @@
+.mainView {
+    background-color: #234;
+    padding: 20px;
+    position: relative;
+    .offscreenInput {
+      height: 100px;
+      width: 100px;
+      position:absolute;
+      top: -200px;
+      left: 0px;
+      }
+}
+
+.puzzle {
+    background-color: #567;
+    padding: 20px;
+    .scoreArea {
+      background-color: #abc;
+      .dancesCount {
+        color: #484;
+        }
+      .boredomCount, .tearsCount {
+        color: #844;
+        }
+  }
+}
+
+.grid {
+    background-color: #789;
+    position: relative;
+
+  .cell {
+    position:absolute;
+  }
+  .cell.faded {
+    background-color: #678;
+  }
+}
+
+.kid {
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.5);
+    -webkit-transition-timing-function: ease-in;
+    -webkit-transition-property: top left;
+    -webkit-transition-duration: 250ms;
+    position: absolute;
+}
+
+.kid.highlight {
+    -webkit-box-shadow: 2px 2px 3px 3px rgba(255, 255, 0, 0.5);
+    -webkit-transform: scale(1.1, 1.1);
+}
+
+.mainView { .girl.weak {
+        background-color: #e99;
+}
+
+.girl.strong {
+        background-color: #f55;
+}
+
+.boy.weak {
+        background-color: #99e;
+}
+
+.boy.strong {
+        background-color: #55f;
+}
+}
+

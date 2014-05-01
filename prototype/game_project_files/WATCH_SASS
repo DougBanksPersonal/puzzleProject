@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sass --style compressed --watch \
+  static/sass:static/styles \
